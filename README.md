@@ -18,8 +18,10 @@ A configuration with bootstrap, font-family, iconic, less, build, uglify & conca
 5. "grunt-contrib-copy": "~0.8.0"
 
 ## Install
-In build folder : npm install
-
+In build folder
+```
+npm install
+```
 ## Commands
 ####Watch task (only for less)
 ```
