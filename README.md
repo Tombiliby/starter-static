@@ -1,10 +1,21 @@
-# Starter static with bootstrap, font-family, iconic, less, build, uglify & concat
+# Starter static 
 
+A configuration with bootstrap, font-family, iconic, less, build, uglify & concat
 
-### Documentation
+###It supports :
+#### Doc. UI/UX
+1. Bootstrap v3.3.4 [http://getbootstrap.com/](http://getbootstrap.com/)
+2. Font-family : fontsquirrel [fontsquirrel.com](http://fontsquirrel.com)
+3. Iconic : Font Awesome [http://fontawesome.io/](http://fontawesome.io/)
+4. Less [http://lesscss.org/](http://lesscss.org/)
 
-Stater support :
-bootstrap v3.3.4 [http://getbootstrap.com/](http://getbootstrap.com/)
-font-family : fontsquirrel [fontsquirrel.com](http://fontsquirrel.com)
+#### Doc. Automatisation
+1. Automatisation : grunt v0.4.5 [http://gruntjs.com/](http://gruntjs.com/) (need to nodejs)
+##### Plugin
+1. "grunt-contrib-less": "~1.0.0",
+2. "grunt-contrib-watch": "~0.6.1",
+3. "grunt-contrib-concat": "~0.5.1",
+4. "grunt-contrib-uglify": "~0.9.1",
+5. "grunt-contrib-copy": "~0.8.0"
 
 
