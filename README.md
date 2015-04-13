@@ -20,7 +20,7 @@ A configuration with bootstrap, font-family, iconic, less, build, uglify & conca
 ## Install
 In build folder : npm install
 
-# Commands
+## Commands
 ####Watch task (only for less)
 ```
 grunt watch
