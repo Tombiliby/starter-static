@@ -97,7 +97,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 
 	// Default task.
-	grunt.registerTask("watch", ["watch"]);
 	grunt.registerTask("build", ["uglify", "concat:app", "concat:lib","less","copy"]);
 
 };
