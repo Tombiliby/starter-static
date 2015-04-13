@@ -1,6 +1,6 @@
 # Starter static 
 
-A configuration with bootstrap, font-family, iconic, less, build, uglify & concat
+A configuration with bootstrap, font-family, iconic, less, build, uglify & concat js
 
 #### Doc. UI/UX
 1. Bootstrap v3.3.4 [http://getbootstrap.com/](http://getbootstrap.com/)
