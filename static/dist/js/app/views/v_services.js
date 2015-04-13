@@ -1,0 +1,1 @@
+$(function(){app.ServicesView=Backbone.View.extend({el:$("#snc-benefit .services"),initialize:function(){this.template=_.template($("#tpl-servises-benefit").html())},render:function(){var a=this.template({services:this.collection.toJSON()});return $(this.el).html(a),console.log(this.collection.toJSON()),this}})});

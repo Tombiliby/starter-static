@@ -1,0 +1,1 @@
+{"version":3,"file":"c_services.js","sources":["../../../../src/js/app/collections/c_services.js"],"names":["$","app","ServicesCollection","Backbone","Collection","extend","model","Service","initialize","console","log","this"],"mappings":"AAAAA,EAAE,WAEDC,IAAIC,mBAAqBC,SAASC,WAAWC,QAC3CC,MAAOL,IAAIM,QACXC,WAAY,WACVC,QAAQC,IAAIC"}

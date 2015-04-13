@@ -1,0 +1,32 @@
+#scn-services {
+	.item {
+		border-bottom: 1px solid @services-item-border;
+		margin: 0 -15px;
+		&:last-child { border-bottom: 0; }
+		> div {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 10px 0;
+			&:first-child { padding:0 15px; }
+			&:last-child { padding:0 15px; }
+			&.scn-input {
+				input { margin-right: 0; }
+			}
+			&.scn-body {
+				width: 100%;
+				> .scn-label {
+					margin-bottom: 0px;
+					display: block;
+					.lbl { font-size: 18px; }
+					.supplement { font-size:0.9em; white-space:nowrap; }
+				}
+			}
+			&.scn-info {
+				background: @services-info-bg;
+				a { color: @typo-text-color; }
+			}
+		}
+
+	}
+}
+

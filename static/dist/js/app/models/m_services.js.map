@@ -1,0 +1,1 @@
+{"version":3,"file":"m_services.js","sources":["../../../../src/js/app/models/m_services.js"],"names":["$","app","Service","Backbone","Model","extend","defaults","title","price","desc","initialize","console","log"],"mappings":"AAAAA,EAAE,WAEAC,IAAIC,QAAUC,SAASC,MAAMC,QAC3BC,UACEC,MAAO,yBACPC,MAAO,KACPC,KAAM,0UAERC,WAAY,WACVC,QAAQC,IAAI"}

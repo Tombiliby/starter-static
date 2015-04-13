@@ -1,0 +1,30 @@
+.scn-header {
+  min-height:46px;
+  width:100%;
+  background:@header-bg;
+  position:relative;
+  z-index:10;
+  .scn-menu {
+    position:absolute;
+    color:@header-btn-menu-color;
+    width:46px;
+    height:46px;
+    line-height:47px;
+    font-size:22px;
+    text-align:center;
+  }
+  .scn-logo {
+    padding:14px 46px 12px;
+    height:46px;
+    text-align:center;
+    width:100%;
+    .logo {
+      height:100%;
+      display:inline-block;
+      width:@header-logo-img-width;
+      background: @header-logo-img;
+      background-size: 100% 100%;
+      text-indent:-99999px;
+    }
+  }
+}
