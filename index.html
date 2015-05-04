@@ -207,8 +207,6 @@ ultricies nec, pellentesque eu, pretium quis, sem.</p>
     style="stroke: #cccc00; stroke-width:2; fill:none;"/>
 
 </svg>
-
-
 		<div class="container lyt-core">
 			<div class="row">
 				<div class="col-md-3 lyt-side">
@@ -251,29 +249,15 @@ ultricies nec, pellentesque eu, pretium quis, sem.</p>
 						  	<h2>Prestations</h2>
 								<div class="services"></div>
 					  	</div>
-	<hr>
-	<section class="snc-demo-code">
-	<h4>Add presta demo</h4>
-	<pre><u>Add service</u>
-	app.servicesCollection.add(new app.Service({
-	  title: "Demo de prestation",
-	  price: "46",
-	  desc: "Description demo.",
-	}));
-
-	<u>Render</u>
-	app.servicesView.render();</pre>
-	</section>
-	<hr>
-							<div id="snc-luggage">
-								<h2>Baggages</h2>
-								<label for="slt-luggage-ad1">Adult 1</label>
-								<select class="form-control" id="slt-luggage-ad1">
-									<option >1 valise, poids maximum 20 kg (40 €)</option>
-									<option >1 valise, poids maximum 30 kg (50 €)</option>
-									<option >1 valise, poids maximum 60 kg (90 €)</option>
-								</select>
-							</div>
+						<div id="snc-luggage">
+							<h2>Baggages</h2>
+							<label for="slt-luggage-ad1">Adult 1</label>
+							<select class="form-control" id="slt-luggage-ad1">
+								<option >1 valise, poids maximum 20 kg (40 €)</option>
+								<option >1 valise, poids maximum 30 kg (50 €)</option>
+								<option >1 valise, poids maximum 60 kg (90 €)</option>
+							</select>
+						</div>
 					  </section>
 
 				<!-- div où seront affichés les articles -->
@@ -281,26 +265,8 @@ ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
 					<section>
 
-			      <script type="text/template" id="tpl-servises-benefit">
-			        <% _.each(services, function(service, i) { %>
-								<div class="item">
-									<div class="scn-input">
-										<input id="cbx-item<%= i %>" type="checkbox">
-									</div>
-									<div class="scn-body">
-										<label class="list-unstyled scn-label" for="cbx-item<%= i %>"><span class="lbl"><%= service.title %></span> <span class="supplement">(supplément de <%= service.price %> €)</span></label>
-									</div>
-									<div  class="scn-info">
-										<a href="#" data-toggle="modal" data-target="#myModal" data-backdrop="true">
-										  <i class="fa fa-info-circle"></i>
-										</a>
-									</div>
-								</div>
-			        <% }); %>
-			      </script>
 
 					</section>
-
 
 				</div>
 			</div>
